@@ -1,0 +1,11 @@
+body {
+  box-sizing: border-box;
+}
+
+header {
+  width: auto;
+  height: 80px;
+  padding: 0;
+  /* border: solid black 1px; */
+  background-color: yellow;
+}
