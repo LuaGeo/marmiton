@@ -1,11 +1,39 @@
-body {
+* {
   box-sizing: border-box;
 }
 
 header {
   width: auto;
   height: 80px;
-  padding: 0;
   /* border: solid black 1px; */
-  background-color: yellow;
+  background-color: #fff;
+  /* padding: 24px; */
 }
+/* background-color: #E5E5E5; */
+
+.logo {
+  height: 80px;
+  width: auto;
+  /* background-color: yellow; */
+  padding: 24px 0 0 208px;
+}
+
+.line {
+  height: 1px;
+  width: auto;
+  background-color: #F3735F;
+}
+
+main {
+  width: auto;
+  height: 1239px;
+  background-color: #E5E5E5;
+  padding: 60px 208px 74px 208px;
+  margin-top: 1px;
+}
+
+/* .container {
+  width: auto;
+  height: 1179px;
+  background-color: #fff;
+} */
