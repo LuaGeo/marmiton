@@ -5,17 +5,14 @@
 header {
   width: auto;
   height: 80px;
-  /* border: solid black 1px; */
   background-color: #fff;
-  /* padding: 24px; */
 }
-/* background-color: #E5E5E5; */
 
 .logo {
   height: 80px;
-  width: auto;
-  /* background-color: yellow; */
-  padding: 24px 0 0 208px;
+  width: 1119px;
+  margin: auto;
+  padding: 24px 0 0 0;
 }
 
 .line {
@@ -26,14 +23,122 @@ header {
 
 main {
   width: auto;
-  height: 1239px;
+  height: auto;
   background-color: #E5E5E5;
-  padding: 60px 208px 74px 208px;
+  padding-top: 60px;
   margin-top: 1px;
 }
 
-/* .container {
-  width: auto;
-  height: 1179px;
+.container {
+  width: 1119px;
+  height: auto;
+  margin: auto;
   background-color: #fff;
-} */
+  padding: 60px 30px;
+}
+
+h1 {
+  font-family: 'Roboto';
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  margin: 0 277px 8px 277px;
+
+  color: #393C6C;
+}
+
+p {
+  font-family: 'Roboto';
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 30px;
+
+  color: #6C6C6C;
+}
+
+.rectangle {
+  width: 400px;
+  height: 45px;
+  background: #8A98B1;
+  border-radius: 10px;
+  margin: auto;
+  padding: 9px 83px;
+}
+
+.p-rectangle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.images {
+  padding: 60px 30px 60px 45px;
+
+}
+
+.images-1 {
+  margin-right: 30px;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin-left: 45px;
+  margin-bottom: 25px;
+
+  color: #F3735F;
+}
+
+ul {
+  font-family: 'Roboto';
+  font-style: normal; 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 45px;
+  margin-bottom: 56px;
+
+  color: #6C6C6C;
+}
+
+.preparation-etapes {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  margin-left: 45px;
+
+  color: #393C6C;
+}
+
+.preparation {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+  margin-left: 45px;
+
+  color: #000;
+}
+
+footer {
+  width: auto;
+  height: 134px;
+  background-color: #E5E5E5;
+  padding: 70px;
+}
